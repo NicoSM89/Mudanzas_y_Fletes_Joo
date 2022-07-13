@@ -27,9 +27,8 @@
 </head>
 
 <body>
-<!-- HEADER -->
 <!-- TÍTULO E ÍCONO -->
-    <header class="bg-header">
+    <div class="bg-header">
         <div class="bg-navbar">
                 <div class="navbar">
                     <a href="/" class="navbar-brand">
@@ -41,27 +40,28 @@
 
 <!-- NAVEGABLES -->
 <nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mt-2 mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Nosotros">Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#opiniones">Recomendaciones</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#formulario">Formulario de Contacto</a>
-        </li>
-      </form>
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mt-2 mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#Nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#opiniones">Recomendaciones</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#formulario">Formulario de Contacto</a>
+            </li>
+        </form>
+        </div>
     </div>
-  </div>
+</div>
 </nav>
 
  <!-- FIN DE NAVEGABLES -->
@@ -90,32 +90,34 @@
     </div>
 <!-- MÉTODOS DE PAGO -->
     
-    <div class="container fondo_1 text-center">
-        <h2 class="mb-3 col-lg-12 col-md-6 text-center">Aceptamos todo medio de pago</h2>
+<div class="container fondo_1 text-center">
+        <h2 class="mb-0 col-lg-12 col-md-6 text-center">Aceptamos todo medio de pago</h2>
 
-        <div class="mb-5 col-lg-12 col-md-6">
+        <div class="mb-5 py-3 col-lg-12 col-md-6 col-6">
             <img src="./IMAGENES/Transbank.png" class="rounded" alt="...">
         </div>
-    </div>
+</div>
 <!-- FIN DE NOSOTROS -->
 
 <!-- CARDS Recomendaciones de clientes -->
-
-<div class="container-fluid mt-5 my-4 py-6" id="opiniones">
-    <div class="container-fluid">
+<div class="col-12 container-fluid mt-5 my-4 py-6" id="opiniones">
+    
+<div class="container-fluid">
         <h2 class="mb-3 col-lg-12 col-md-6 text-center">Opiniones de Clientes</h2>
-    </div>
-    <div class="card col-4" style="width: 20rem;">
+</div>
+
+<div class="row">
+    <div class="card col-3" style="width: 19rem;">
             <img src="./IMAGENES/Estrellas.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-            <p class="card-text">Excelente servicio, me los recomendó un amigo y fue una muy buena experiencia de mudanza. Puntuales, responsables y cuidadosos con nuestras cosas. Gracias.
+            <p class="card-text">Excelente servicio, me los recomendó un amigo y fue una muy buena experiencia de mudanza. Puntuales, responsables y cuidadosos con nuestras cosas.
                 <br>
             Marcelo Troncoso
             </p>
         </div>
     </div>
 
-        <div class="card col-4" style="width: 20rem;">
+    <div class="card col-3" style="width: 19rem;">
             <img src="./IMAGENES/Estrellas.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">Me salvaron de un apuro con un flete para un trabajo. Llegaron puntual, servicio con las 3B, bueno, bonito y barato. Gracias, al final todo resultó impecable.
@@ -125,7 +127,7 @@
         </div>
     </div>
 
-        <div class="card col-4" style="width: 20rem;">
+    <div class="card col-3" style="width: 19rem;">
             <img src="./IMAGENES/Estrellas.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">Muy buen servicio, ya los he llamado en dos ocasiones, una para una mudanza y luego para llevar un par de cosas que compré para la casa. Recomendados.
@@ -134,20 +136,21 @@
         </div>
     </div>
 
-        <div class="card col-4" style="width: 20rem;">
+    <div class="card col-3" style="width: 19rem;">
             <img src="./IMAGENES/Estrellas.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">Mi familia y yo quedamos muy contentos con el servicio, todo resultó muy expedito, muchas gracias. Ya sabemos a quien llamar en caso de fletes o mudanzas!
                 <br>
                 Marcela Bristol</p>
+    </div>
         </div>
-</div>
+    </div>
 </div>
 <!-- Fin de CARDS Recomendaciones de clientes -->
 <!-- FORMULARIO DE CONTACTO -->
 
 <section class="main_content contacto_num" id="formulario">
-    <div class="container col-8 col-lg-12 col-md-6 py-5 mb-3 mt-0 mb-0e">
+    <div class="container col-8 col-lg-12 col-md-6 col-xs-4 py-5 mb-3 mt-0 mb-0e">
         <main class="fondo_formulario text-black py-1 id="contacto">
             <div class="container col-12 col-lg-12 col-md-6">
                 <div class="py-1 text-primary"></div>
@@ -204,8 +207,7 @@
     <!-- Section: Social media -->
   <!-- Copyright -->
     <section class="footer_2 container-fluid">
-        © 2022 Copyright:
-        <a class="footer_2" href="">H&N Diseños Web</a>
+        © 2022 Copyright - H&N Diseños Web
     </section>
 </footer>
 <!-- CIERRE FOOTER -->

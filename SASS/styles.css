@@ -118,10 +118,6 @@ body {
     margin-bottom: 0;
 }
 
-.CARDS_1 {
-    background-color: #FFFFFF;
-}
-
 /*MAIN*/
 
 .main {
@@ -176,7 +172,8 @@ h1 {
 }
 
 .card {
-    margin: 2rem;
+    margin: auto;
+    margin-bottom: 2rem;
 }
 
 /* WHATSAPP BOTON */
